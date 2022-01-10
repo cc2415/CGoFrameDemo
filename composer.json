@@ -1,0 +1,15 @@
+{
+    "name": "cheng/c-goframe-demo",
+    "autoload": {
+        "psr-4": {
+            "Cheng\\CGoframeDemo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cheng",
+            "email": "137842934@qq.com"
+        }
+    ],
+    "require": {}
+}
