@@ -1,0 +1,52 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e202cdb66389df0044dc6ab15f419a1f",
+    "packages": [
+        {
+            "name": "cc2415/cgo-frame",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cc2415/CGOFrame.git",
+                "reference": "389ded5fcc41dbd382c59ae5b3de23e60411fc95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cc2415/CGOFrame/zipball/389ded5fcc41dbd382c59ae5b3de23e60411fc95",
+                "reference": "389ded5fcc41dbd382c59ae5b3de23e60411fc95",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "cc2415\\CgoFrame\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "cc2415",
+                    "email": "137842934@qq.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/cc2415/CGOFrame/issues",
+                "source": "https://github.com/cc2415/CGOFrame/tree/v1.0.1"
+            },
+            "time": "2022-01-12T07:10:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}

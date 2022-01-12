@@ -11,5 +11,7 @@
             "email": "137842934@qq.com"
         }
     ],
-    "require": {}
+    "require": {
+        "cc2415/cgo-frame": "^1.0"
+    }
 }
