@@ -12,6 +12,6 @@
         }
     ],
     "require": {
-        "cc2415/cgo-frame": "^1.0"
+        "cgo/cgo-frame": "dev-main"
     }
 }

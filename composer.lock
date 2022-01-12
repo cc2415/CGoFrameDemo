@@ -4,26 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e202cdb66389df0044dc6ab15f419a1f",
+    "content-hash": "7579c4a0b7d76fc38ac16d999d675df1",
     "packages": [
         {
-            "name": "cc2415/cgo-frame",
-            "version": "v1.0.1",
+            "name": "cgo/cgo-frame",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cc2415/CGOFrame.git",
-                "reference": "389ded5fcc41dbd382c59ae5b3de23e60411fc95"
+                "reference": "78aa47ee44ace7188d741c0d3fde221eb672fac0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cc2415/CGOFrame/zipball/389ded5fcc41dbd382c59ae5b3de23e60411fc95",
-                "reference": "389ded5fcc41dbd382c59ae5b3de23e60411fc95",
+                "url": "https://api.github.com/repos/cc2415/CGOFrame/zipball/78aa47ee44ace7188d741c0d3fde221eb672fac0",
+                "reference": "78aa47ee44ace7188d741c0d3fde221eb672fac0",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "cc2415\\CgoFrame\\": "src/"
+                    "cgo\\CgoFrame\\": "cgo"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -35,15 +36,17 @@
             ],
             "support": {
                 "issues": "https://github.com/cc2415/CGOFrame/issues",
-                "source": "https://github.com/cc2415/CGOFrame/tree/v1.0.1"
+                "source": "https://github.com/cc2415/CGOFrame/tree/main"
             },
-            "time": "2022-01-12T07:10:56+00:00"
+            "time": "2022-01-12T10:26:17+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "cgo/cgo-frame": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
